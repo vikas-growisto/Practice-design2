@@ -1,0 +1,1400 @@
+-- import: fastn-community.github.io/rubik-typography
+-- import: fastn-community.github.io/misty-gray/assets
+
+
+
+-- page:
+
+-- banner: Get Things Done By Great Remote Team
+src: $assets.files.assets.bg-2.jpg
+cta-label: Register Now
+
+This is just a simple text made for this unique and awesome template, you can replace it with any text.
+
+-- header: Zivaco
+src: $assets.files.assets.logo-dark.png
+menu: $assets.files.assets.menu.png
+
+-- end: banner
+
+-- inner-content:
+
+-- we-build: We are build awesome marketing template
+
+This is just a simple text made for this unique and awesome template, you can replace it with any text.
+
+-- we-build-card:
+title: Grow Your Business
+src: $assets.files.assets.dry-clean.png
+
+The phrasal sequence of the is now so that many campaign and benefit
+
+-- we-build-card:
+title: Drive More Sales
+src: $assets.files.assets.cpu.png
+
+The phrasal sequence of the is now so that many campaign and benefit
+
+-- we-build-card:
+title: Handled By Expert
+src: $assets.files.assets.fire.png
+
+The phrasal sequence of the is now so that many campaign and benefit
+
+-- we-build-card:
+title: Discussion For Idea
+src: $assets.files.assets.flower.png
+
+The phrasal sequence of the is now so that many campaign and benefit
+
+-- end: we-build
+
+-- end: inner-content
+
+-- about-us: Unlimited Possibilities. 1st Class Templates.
+cta-label: Learn More
+src: $assets.files.assets.about.png
+shop-src: $assets.files.assets.shop.png
+shop-title: Open your own shop
+shop-body: This is just a simple text made for this unique and awesome template
+
+This is just a simple text made for this unique and awesome template, you can replace it with any text.
+
+-- why-choose: Why Choose us ?
+src: $assets.files.assets.laptop.png
+cta-label: Learn More
+sub-title: Fully Secured
+sub-cont-body: Moreover, in Latin only words at the beginning of sentences are capitalized.
+sub-cont-src: $assets.files.assets.fire.png
+
+This is just a simple text made for this unique and awesome template, you can replace it with any text.
+
+-- why-choose-sub-sec: 
+sub-title: Fully Secured
+sub-cont-body: Moreover, in Latin only words at the beginning of sentences are capitalized.
+sub-cont-src: $assets.files.assets.fire.png
+
+-- why-choose-sub-sec: 
+sub-title: Best Performance
+sub-cont-body: If the fill text is intended to illustrate the characteristics of sometimes.
+sub-cont-src: $assets.files.assets.fire.png
+
+-- end: why-choose
+
+-- subscribe: Subscribe our Newsletter
+cta-label: Subscribe Now
+
+This is just a simple text made for this unique and awesome template, you can replace it with any text.
+
+-- blog: Check out our latest news & articles
+
+This is just a simple text made for this unique and awesome template, you can replace it with any text.
+
+-- blog-card:
+title: Creativity is nothing but a mind set free
+src: $assets.files.assets.blog-1.jpg
+
+Some quick example text to build on the card title and make up the bulk of the card's content.
+
+-- blog-card:
+title: Simplicity is the ultimate sophistication
+src: $assets.files.assets.blog-2.jpg
+
+Some quick example text to build on the card title and make up the bulk of the card's content.
+
+-- blog-card:
+title: People ignore designs that ignore people
+src: $assets.files.assets.blog-3.jpg
+
+Some quick example text to build on the card title and make up the bulk of the card's content.
+
+-- end: blog
+
+-- get-in-touch: Get In Touch!
+cta-label: Subscribe Now
+
+This is just a simple text made for this unique and awesome template, you can replace it with any text.
+
+-- footer: 
+body: © 2023 Zivaco. Design with by Shreethemes
+src: $assets.files.assets.logo-light.png
+fb-img: $assets.files.assets.facebook.png
+insta-img: $assets.files.assets.instagram.png
+twitter-img: $assets.files.assets.twitter.png
+linkedin-img: $assets.files.assets.linkedin.png
+
+
+-- end: page
+
+
+
+
+
+
+
+
+
+
+
+
+-- component page:
+children child:
+
+-- ftd.column:
+width: fill-container
+align-content: center
+children: $page.child
+
+-- end: ftd.column
+
+-- end: page
+
+
+
+
+
+
+
+
+-- component inner-content:
+children child:
+
+-- ftd.column:
+width.fixed.percent: 100
+max-width.fixed.px: 1140
+padding-horizontal.px: 15
+children: $inner-content.child
+
+-- end: ftd.column
+
+-- end: inner-content
+
+
+
+
+
+
+
+
+
+-- component header:
+caption site-name:
+ftd.image-src src:
+ftd.image-src menu:
+
+-- ftd.column:
+width: fill-container
+align-content: center
+z-index: 10
+
+-- ftd.row:
+width.fixed.percent: 100
+max-width.fixed.px: 1140
+spacing: space-between
+padding-vertical.px: 20
+padding-horizontal.px: 15
+align-content: center
+if: { ftd.device == "desktop" }
+
+-- ftd.column:
+
+-- ftd.image:
+src: $header.src
+
+-- end: ftd.column
+
+-- ftd.column:
+
+-- ftd.row:
+spacing.fixed.px: 32
+
+-- ftd.text: HOME
+color: $inherited.colors.text
+role: $inherited.types.copy-small
+
+-- ftd.text: SERVICES
+color: $inherited.colors.text
+role: $inherited.types.copy-small
+
+-- ftd.text: ABOUT US
+color: $inherited.colors.text
+role: $inherited.types.copy-small
+
+-- ftd.text: PRICING
+color: $inherited.colors.text
+role: $inherited.types.copy-small
+
+-- ftd.text: BLOG
+color: $inherited.colors.text
+role: $inherited.types.copy-small
+
+-- ftd.text: CONTACT US
+color: $inherited.colors.text
+role: $inherited.types.copy-small
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- ftd.row:
+width.fixed.percent: 100
+spacing: space-between
+padding-vertical.px: 20
+padding-horizontal.px: 15
+align-content: center
+if: { ftd.device == "mobile" }
+
+-- ftd.column:
+
+-- ftd.image:
+src: $header.src
+
+-- end: ftd.column
+
+-- ftd.column:
+
+-- ftd.image:
+width.fixed.px: 36
+src: $header.menu
+cursor: pointer
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: header
+
+
+
+
+
+
+
+
+
+
+
+-- component banner:
+ftd.image-src src:
+caption title:
+body body:
+string cta-label:
+children child:
+
+-- ftd.column:
+width: fill-container
+align-content: center
+background.solid: #f2f6fa
+
+-- ftd.image:
+width.fixed.percent: 100
+height.fixed.percent: 100
+src: $banner.src
+anchor: parent
+left.px: 0
+top.px: 0
+z-index: 1
+
+-- ftd.row:
+width: fill-container
+align-content: center
+children: $banner.child
+z-index: 10
+
+-- end: ftd.row
+
+
+-- ftd.column:
+width: fill-container
+max-width.fixed.px: 1140
+padding-vertical.percent: 20
+padding-vertical.px if {ftd.device == "mobile"}: 100
+padding-horizontal.px: 15
+z-index: 10
+
+-- ftd.text: $banner.title
+max-width.fixed.px: 350
+color: $inherited.colors.text
+role: $inherited.types.heading-medium
+
+-- ftd.text: 
+max-width.fixed.percent if {ftd.device == "desktop"}: 45
+width: fill-container
+color: $inherited.colors.text
+role: $inherited.types.copy-regular
+margin-top.px: 24
+
+$banner.body
+
+-- ftd.column:
+width: fill-container
+max-width.fixed.percent if {ftd.device == "desktop"}: 50
+
+-- ftd.row:
+width.fixed.percent: 100
+margin-top.px: 24
+height.fixed.px: 50
+height.fixed.px if {ftd.device == "mobile"}: 42
+background.solid: #ccc
+spacing: space-between
+align-content: center
+border-radius.px: 30
+padding-horizontal.px: 3
+
+-- ftd.text-input:
+width.fixed.percent if {ftd.device == "desktop"}: 75
+placeholder: Email Address / Phone Number
+role: $inherited.types.copy-small
+border-radius.px: 30
+padding-horizontal.px: 20
+padding-vertical.px: 10
+background.solid: transparent
+
+-- ftd.text: $banner.cta-label
+color: #fff
+role: $inherited.types.copy-small
+background.solid: #5329c4
+padding-horizontal.px: 20
+padding-vertical.px: 10
+border-radius.px: 30
+text-align: center
+white-space: nowrap
+
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: banner
+
+
+
+
+
+
+
+
+-- component we-build:
+caption title:
+body body: 
+children child:
+
+-- ftd.column:
+width: fill-container
+padding-vertical.px: 100
+padding-vertical.px if {ftd.device == "mobile"}: 30
+z-index: 10
+
+
+-- ftd.column:
+width: fill-container
+align-content: center
+margin-bottom.px: 24
+
+-- ftd.text: $we-build.title
+max-width.fixed.percent if {ftd.device == "desktop"}: 50
+text-align: center
+color: $inherited.colors.text
+role: $inherited.types.heading-medium
+
+-- ftd.text: 
+max-width.fixed.percent if {ftd.device == "desktop"}: 50
+text-align: center
+color: $inherited.colors.text
+role: $inherited.types.copy-regular
+margin-top.px: 24
+
+$we-build.body
+
+-- end: ftd.column
+
+-- ftd.row:
+wrap: true
+spacing if {ftd.device == "desktop"}: space-between
+width: fill-container
+children: $we-build.child
+align-content: center
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: we-build
+
+
+
+
+
+
+
+
+-- component we-build-card:
+caption title:
+body body:
+ftd.image-src src:
+
+-- ftd.column:
+
+-- ftd.desktop:
+
+-- we-build-card-desktop:
+title: $we-build-card.title
+body: $we-build-card.body
+src: $we-build-card.src
+
+-- end: ftd.desktop
+
+-- ftd.mobile:
+
+-- we-build-card-mobile:
+title: $we-build-card.title
+body: $we-build-card.body
+src: $we-build-card.src
+
+-- end: ftd.mobile
+
+-- end: ftd.column
+
+-- end: we-build-card
+
+
+
+
+
+
+
+
+-- component we-build-card-desktop:
+caption title:
+body body:
+ftd.image-src src:
+
+-- ftd.column:
+max-width.fixed.px: 258
+width.fixed.percent: 100
+height.fixed.percent: 100
+margin-top.px: 30
+margin-horizontal.px: 5
+padding-vertical.px: 24
+border-width.px: 1
+border-color: #24272c26
+align-content: center
+border-radius.px: 10
+
+-- ftd.column:
+margin-bottom.px: 20
+width.fixed.px: 90
+height.fixed.px: 90
+background.solid: #aa65e8
+align-content: center
+border-radius.px: 50
+
+-- ftd.image:
+width.fixed.px: 30
+src: $we-build-card-desktop.src 
+
+-- end: ftd.column
+
+-- ftd.column:
+
+-- ftd.column:
+padding-horizontal.px: 15
+align-content: center
+
+-- ftd.text: $we-build-card-desktop.title
+color: $inherited.colors.text
+role: $inherited.types.heading-small
+margin-top.px: 15
+
+-- ftd.text: 
+text-align: center
+color: $inherited.colors.text
+role: $inherited.types.copy-regular
+margin-vertical.px: 12
+
+$we-build-card-desktop.body 
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: we-build-card-desktop
+
+
+
+
+
+
+
+
+-- component we-build-card-mobile:
+caption title:
+body body:
+ftd.image-src src:
+
+
+-- ftd.row:
+width.fixed.percent: 100
+margin-top.px: 30
+margin-horizontal.px: 5
+padding-vertical.px: 24
+padding-horizontal.px: 15
+border-width.px: 1
+border-color: #24272c26
+align-content: center
+border-radius.px: 10
+spacing.fixed.px: 30
+
+-- ftd.column:
+max-width.fixed.px: 90
+width: fill-container
+min-height.fixed.px: 90
+background.solid: #aa65e8
+align-content: center
+border-radius.px: 50
+
+-- ftd.image:
+width.fixed.px: 30
+src: $we-build-card-mobile.src 
+
+-- end: ftd.column
+
+-- ftd.column:
+width.fixed.percent: 80
+
+-- ftd.text: $we-build-card-mobile.title
+color: $inherited.colors.text
+role: $inherited.types.heading-small
+
+-- ftd.text: 
+color: $inherited.colors.text
+role: $inherited.types.copy-regular
+margin-top.px: 12
+
+$we-build-card-mobile.body 
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+
+-- end: we-build-card-mobile
+
+
+
+
+
+
+
+
+
+-- component about-us:
+caption title:
+body body:
+string cta-label:
+ftd.image-src src:
+ftd.image-src shop-src:
+string shop-title:
+string shop-body:
+
+-- ftd.column:
+background.solid: #f2f6fa
+width: fill-container
+align-content: center
+
+-- ftd.desktop:
+
+-- ftd.column:
+width: fill-container
+max-width.fixed.px: 1140
+padding-horizontal.px: 10
+padding-vertical.px: 120
+
+-- about-us-desktop:
+title: $about-us.title
+body: $about-us.body
+cta-label: $about-us.cta-label
+src: $about-us.src
+shop-src: $about-us.shop-src
+shop-title: $about-us.shop-title
+shop-body: $about-us.shop-body
+
+-- end: ftd.column
+
+-- end: ftd.desktop
+
+-- ftd.mobile:
+
+-- ftd.column:
+width: fill-container
+padding-vertical.px: 40
+padding-horizontal.px: 10
+
+-- about-us-mobile:
+title: $about-us.title
+body: $about-us.body
+cta-label: $about-us.cta-label
+src: $about-us.src
+shop-src: $about-us.shop-src
+shop-title: $about-us.shop-title
+shop-body: $about-us.shop-body
+
+-- end: ftd.column
+
+-- end: ftd.mobile
+
+-- end: ftd.column
+
+-- end: about-us
+
+
+
+
+
+
+
+-- component about-us-desktop:
+caption title:
+body body:
+string cta-label:
+ftd.image-src src:
+ftd.image-src shop-src:
+string shop-title:
+string shop-body:
+
+-- ftd.row:
+width: fill-container
+align-self: center
+align-content: center
+spacing: space-between
+
+-- ftd.column:
+width.fixed.percent: 40
+
+-- ftd.image:
+width: fill-container
+src: $about-us-desktop.src
+
+-- end: ftd.column
+
+-- ftd.column:
+width.fixed.percent: 52
+margin-left.px: 48
+
+-- ftd.text: $about-us-desktop.title
+max-width.fixed.percent: 90
+color: $inherited.colors.text
+role: $inherited.types.heading-large
+
+-- ftd.text: 
+color: $inherited.colors.text
+role: $inherited.types.copy-regular
+margin-top.px: 24
+
+$about-us-desktop.body
+
+-- ftd.row:
+margin-top.px: 24
+padding.px: 24
+background.solid: #fff
+border-radius.px: 10
+border-width.px: 1
+border-color: #ccc
+
+-- ftd.column:
+margin-right.px: 20
+
+-- ftd.image:
+src: $about-us-desktop.shop-src
+
+-- end: ftd.column
+
+-- ftd.column:
+max-width.fixed.px: 300
+
+-- ftd.text: 
+text: $about-us-desktop.shop-title
+color: $inherited.colors.text
+role: $inherited.types.copy-regular
+
+-- ftd.text: 
+text: $about-us-desktop.shop-body
+color: $inherited.colors.text
+role: $inherited.types.copy-regular
+margin-top.px: 8
+
+
+-- ftd.text: $about-us-desktop.cta-label
+padding-horizontal.px: 20
+padding-vertical.px: 8
+margin-top.px: 16
+background.solid: #aa65e8
+color: #fff
+role: $inherited.types.copy-regular
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: about-us-desktop
+
+
+
+
+
+
+
+
+-- component about-us-mobile:
+caption title:
+body body:
+string cta-label:
+ftd.image-src src:
+ftd.image-src shop-src:
+string shop-title:
+string shop-body:
+
+-- ftd.column:
+width: fill-container
+padding-left.px: 10
+
+
+-- ftd.image:
+width: fill-container
+margin-bottom.px: 40
+src: $about-us-mobile.src
+
+-- ftd.text: $about-us-mobile.title
+color: $inherited.colors.text
+role: $inherited.types.heading-large
+
+-- ftd.text: 
+color: $inherited.colors.text
+role: $inherited.types.copy-regular
+margin-top.px: 24
+
+$about-us-mobile.body
+
+-- ftd.row:
+margin-top.px: 24
+padding.px: 24
+background.solid: #fff
+border-radius.px: 10
+border-width.px: 1
+border-color: #ccc
+
+-- ftd.column:
+margin-right.px: 20
+
+-- ftd.image:
+src: $about-us-mobile.shop-src
+
+-- end: ftd.column
+
+-- ftd.column:
+
+-- ftd.text: 
+text: $about-us-mobile.shop-title
+color: $inherited.colors.text
+role: $inherited.types.copy-regular
+
+-- ftd.text: 
+text: $about-us-mobile.shop-body
+color: $inherited.colors.text
+role: $inherited.types.copy-regular
+margin-top.px: 10
+
+
+-- ftd.text: $about-us-mobile.cta-label
+margin-top.px: 20
+border-width.px: 2
+background.solid: #aa65e8
+color: #fff
+role: $inherited.types.copy-regular
+padding-horizontal.px: 20
+padding-vertical.px: 8
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: about-us-mobile
+
+
+
+
+
+
+
+
+-- component why-choose:
+caption title:
+body body:
+ftd.image-src src:
+string sub-title:
+string sub-cont-body:
+ftd.image-src sub-cont-src:
+string cta-label:
+boolean $cta-hover: false
+children child:
+
+-- ftd.column:
+background.solid: #f2f6fa
+width: fill-container
+align-content: center
+overflow: hidden
+
+-- ftd.column:
+width: fill-container
+max-width.fixed.px: 1140
+padding-horizontal.px: 15
+padding-bottom.px: 100
+padding-bottom.px if {ftd.device == "mobile"}: 30
+
+
+
+-- ftd.row:
+width: fill-container
+align-self: center
+spacing: space-between
+wrap: true
+
+-- ftd.column:
+width.fixed.percent if {ftd.device == "desktop"}: 55
+
+-- ftd.text: $why-choose.title
+max-width.fixed.percent: 90
+color: $inherited.colors.text
+role: $inherited.types.heading-large
+
+-- ftd.text: 
+color: $inherited.colors.text
+role: $inherited.types.copy-regular
+margin-top.px: 24
+
+$why-choose.body
+
+-- ftd.column:
+children: $why-choose.child
+
+-- end: ftd.column
+
+-- ftd.text: $why-choose.cta-label
+margin-top.px: 20
+border-width.px: 2
+border-color: #aa65e8
+color: #aa65e8
+role: $inherited.types.copy-regular
+padding-horizontal.px: 20
+padding-vertical.px: 8
+$on-mouse-enter$: $ftd.set-bool($a = $why-choose.cta-hover, v = true)
+$on-mouse-leave$: $ftd.set-bool($a = $why-choose.cta-hover, v = false)
+border-color if { why-choose.cta-hover }: #aa65e8
+background.solid if { why-choose.cta-hover }: #aa65e8
+color if { why-choose.cta-hover }: #fff
+
+-- end: ftd.column
+
+-- ftd.column:
+width.fixed.percent if {ftd.device == "desktop"}: 40
+height.fixed.percent: 100
+margin-top.px if {ftd.device == "mobile"}: 40
+
+-- ftd.image:
+height.fixed.percent if {ftd.device == "desktop"}: 100
+src: $why-choose.src
+anchor if {ftd.device == "desktop"}: parent
+right.px if {ftd.device == "desktop"}: -700
+right.px: 0
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: why-choose
+
+
+
+
+
+
+
+-- component why-choose-sub-sec:
+string sub-title:
+string sub-cont-body:
+ftd.image-src sub-cont-src:
+
+-- ftd.row:
+width.fixed.percent: 100
+height.fixed.percent: 100
+margin-top.px: 30
+margin-horizontal.px: 5
+padding-vertical.px: 10
+align-content: center
+border-radius.px: 10
+
+-- ftd.column:
+align-content: center
+
+-- ftd.image:
+width.fixed.px: 30
+src: $why-choose-sub-sec.sub-cont-src 
+
+-- end: ftd.column
+
+-- ftd.column:
+
+-- ftd.column:
+padding-horizontal.px: 10
+
+-- ftd.text: $why-choose-sub-sec.sub-title
+color: $inherited.colors.text
+role: $inherited.types.heading-small
+
+-- ftd.text: 
+text: $why-choose-sub-sec.sub-cont-body 
+color: $inherited.colors.text
+role: $inherited.types.copy-regular
+margin-vertical.px: 12
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: why-choose-sub-sec
+
+
+
+
+
+
+
+
+-- component subscribe:
+caption title:
+body body:
+string cta-label:
+
+-- ftd.column:
+background.solid: #5329c4
+width: fill-container
+align-content: center
+
+-- ftd.column:
+width: fill-container
+max-width.fixed.px: 1140
+padding-vertical.px: 100
+padding-vertical.px if {ftd.device == "mobile"}: 40
+padding-horizontal.px: 15
+align-content: center
+
+-- ftd.text: $subscribe.title
+max-width.fixed.percent: 100
+role: $inherited.types.heading-medium
+text-align: center
+color: #fff
+
+-- ftd.text: 
+max-width.fixed.percent if {ftd.device == "desktop"}: 45
+color: #be89ed
+role: $inherited.types.copy-regular
+margin-top.px: 24
+text-align: center
+
+$subscribe.body
+
+-- ftd.row:
+max-width.fixed.percent if {ftd.device == "desktop"}: 45
+width: fill-container
+margin-top.px: 24
+height.fixed.px: 50
+height.fixed.px if {ftd.device == "mobile"}: 42
+background.solid: #ccc
+spacing: space-between
+align-content: center
+border-radius.px: 30
+padding-horizontal.px: 3
+
+-- ftd.text-input:
+width.fixed.percent: 75
+placeholder: Email Address / Phone Number
+role: $inherited.types.copy-small
+border-radius.px: 30
+padding-horizontal.px: 20
+padding-vertical.px: 10
+background.solid: transparent
+
+-- ftd.text: $subscribe.cta-label 
+color: #fff
+role: $inherited.types.copy-small
+background.solid: #5329c4
+padding-horizontal.px: 20
+padding-vertical.px: 10
+border-radius.px: 30
+text-align: center
+white-space: nowrap
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: subscribe
+
+
+
+
+
+
+
+
+
+
+
+-- component blog:
+caption title:
+body body: 
+children child:
+
+-- ftd.column:
+width: fill-container
+background.solid: #f2f6fa
+align-content: center
+
+-- ftd.column:
+width: fill-container
+max-width.fixed.px: 1140
+padding-vertical.px: 100
+padding-vertical.px if {ftd.device == "mobile"}: 30
+padding-horizontal.px if {ftd.device == "mobile"}: 15
+
+-- ftd.column:
+width: fill-container
+align-content: center
+margin-bottom.px: 24
+
+-- ftd.text: $blog.title
+max-width.fixed.percent if {ftd.device == "desktop"}: 50
+;;max-width.fixed.percent : 35
+text-align: center
+color: $inherited.colors.text
+role: $inherited.types.heading-medium
+
+-- ftd.text: 
+max-width.fixed.percent if {ftd.device == "desktop"}: 50
+;;max-width.fixed.percent : 50
+text-align: center
+color: $inherited.colors.text
+role: $inherited.types.copy-regular
+margin-top.px: 24
+
+$blog.body
+
+-- end: ftd.column
+
+-- ftd.row:
+wrap: true
+align-content: center
+width: fill-container
+spacing.fixed.px: 30
+children: $blog.child
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: blog
+
+
+
+
+
+
+
+
+-- component blog-card:
+caption title:
+body body:
+ftd.image-src src:
+
+
+-- ftd.column:
+max-width.fixed.px if {ftd.device == "desktop"}: 350
+width.fixed.percent: 100
+margin-top.px: 30
+margin-top.px if {ftd.device == "mobile"}: 0
+margin-horizontal.px: 5
+padding-bottom.px: 24
+padding-bottom.px if {ftd.device == "mobile"}: 0
+align-content: center
+border-radius.px: 10
+
+-- ftd.column:
+margin-bottom.px: 20
+width: fill-container
+background.solid: #aa65e8
+align-content: center
+border-radius.px: 10
+
+-- ftd.image:
+border-radius.px: 10
+width: fill-container
+src: $blog-card.src 
+
+-- end: ftd.column
+
+-- ftd.column:
+
+-- ftd.column:
+padding-horizontal.px: 20
+padding-horizontal.px if {ftd.device == "mobile"}: 0
+align-content: center
+
+-- ftd.text: $blog-card.title
+color: $inherited.colors.text
+role: $inherited.types.heading-small
+margin-top.px: 15
+margin-top.px if {ftd.device == "mobile"}: 0
+
+-- ftd.text: 
+color: $inherited.colors.text
+role: $inherited.types.copy-regular
+margin-vertical.px: 12
+
+$blog-card.body 
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: blog-card
+
+
+
+
+
+
+
+
+
+
+-- component get-in-touch:
+caption title:
+body body:
+string cta-label:
+
+-- ftd.column:
+width: fill-container
+align-content: center
+
+-- ftd.column:
+width: fill-container
+max-width.fixed.px: 1140
+padding-vertical.px: 100
+padding-vertical.px if {ftd.device == "mobile"}: 30
+padding-horizontal.px: 15
+align-content: center
+
+-- ftd.text: $get-in-touch.title
+max-width.fixed.percent: 100
+color: $inherited.colors.text
+role: $inherited.types.heading-medium
+text-align: center
+
+-- ftd.text: 
+max-width.fixed.percent if { ftd.device == "desktop" }: 45
+color: $inherited.colors.text
+role: $inherited.types.copy-regular
+margin-vertical.px: 24
+margin-bottom.px if {ftd.device == "mobile"}: 0
+text-align: center
+
+$get-in-touch.body
+
+
+-- ftd.row:
+width: fill-container
+margin-top.px: 24
+spacing: space-between
+wrap: true
+height.fixed.percent: 100
+
+-- ftd.column:
+width.fixed.percent: 48
+width.fixed.percent if { ftd.device == "mobile" }: 100
+
+-- ftd.text-input:
+width.fixed.percent: 100
+placeholder: Name :
+role: $inherited.types.copy-small
+padding-horizontal.px: 20
+padding-vertical.px: 10
+background.solid: transparent
+border-width.px: 1
+border-color: #ccc
+
+-- ftd.text-input:
+width.fixed.percent: 100
+placeholder: Email :
+role: $inherited.types.copy-small
+padding-horizontal.px: 20
+padding-vertical.px: 10
+background.solid: transparent
+border-width.px: 1
+border-color: #ccc
+margin-top.px: 24
+type: email
+
+-- ftd.text-input:
+width.fixed.percent: 100
+placeholder: Subject :
+role: $inherited.types.copy-small
+padding-horizontal.px: 20
+padding-vertical.px: 10
+background.solid: transparent
+border-width.px: 1
+border-color: #ccc
+margin-top.px: 24
+
+-- end: ftd.column
+
+-- ftd.column:
+width.fixed.percent: 48
+height.fixed.percent if { ftd.device == "desktop" }: 100
+width.fixed.percent if { ftd.device == "mobile" }: 100
+margin-top.px if { ftd.device == "mobile" }: 24
+align-content: center
+
+-- ftd.text-input:
+width.fixed.percent: 100
+height.fixed.percent: 100
+placeholder: Message :
+role: $inherited.types.copy-small
+padding-horizontal.px: 20
+padding-vertical.px: 10
+background.solid: transparent
+border-width.px: 1
+border-color: #ccc
+multiline: true
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: get-in-touch
+
+
+
+
+
+
+
+
+
+-- component footer:
+ftd.image-src src:
+ftd.image-src fb-img:
+ftd.image-src insta-img:
+ftd.image-src twitter-img:
+ftd.image-src linkedin-img:
+string body:
+
+-- ftd.column:
+width: fill-container
+background.solid: #202942
+align-content: center
+
+-- ftd.row:
+width.fixed.percent: 100
+max-width.fixed.px: 1140
+spacing if {ftd.device == "desktop"}: space-between
+padding-vertical.px: 30
+padding-horizontal.px: 15
+wrap: true
+
+-- ftd.column:
+width.fixed.percent if { ftd.device == "mobile" }: 100
+align-content if { ftd.device == "mobile" }: center
+
+-- ftd.image:
+src: $footer.src
+
+-- end: ftd.column
+
+-- ftd.column:
+width.fixed.percent if { ftd.device == "mobile" }: 100
+margin-top.px if { ftd.device == "mobile" }: 15
+align-content if { ftd.device == "mobile" }: center
+
+-- ftd.text: 
+color: #fff
+role: $inherited.types.copy-regular
+
+$footer.body
+
+-- end: ftd.column
+
+-- ftd.column:
+width.fixed.percent if { ftd.device == "mobile" }: 100
+margin-top.px if { ftd.device == "mobile" }: 15
+align-content if { ftd.device == "mobile" }: center
+
+-- ftd.row:
+spacing.fixed.px: 5
+
+-- ftd.image:
+width.fixed.px: 35
+src: $footer.fb-img
+
+-- ftd.image:
+width.fixed.px: 35
+src: $footer.insta-img
+
+-- ftd.image:
+width.fixed.px: 35
+src: $footer.twitter-img
+
+-- ftd.image:
+width.fixed.px: 35
+src: $footer.linkedin-img
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: footer
